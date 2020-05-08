@@ -3,7 +3,7 @@ import unittest, time
 
 # 四大组件
 # test fixture  setUp  tearDown
-#test case 测试用例 通过集成unitest TestCase 来实现用例的继承 在UniTest中，测试用例都是通过test来识别的
+# test case 测试用例 通过集成unitest TestCase 来实现用例的继承 在UniTest中，测试用例都是通过test来识别的
 # test suite 测试套件 测试用例集
 # test runner  运行器 一般通过runner来调用suit去执行测试
 #unitest 运行机制 通过main函数中，调用unitest main()运行所有的内容
