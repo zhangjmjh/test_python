@@ -30,6 +30,7 @@ class BaiduTest(unittest.TestCase):  #通过继承unitest,TestCase来实现用�
         print('c')
 
     def tearDown(self):
+        pass
 
 if __name__ == '__main__':
     unittest.main()
