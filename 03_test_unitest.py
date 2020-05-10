@@ -1,5 +1,5 @@
 from selenium import webdriver
-import unittest, time
+import unittest ,time
 
 # 四大组件
 # test fixture  setUp  tearDown
@@ -8,29 +8,37 @@ import unittest, time
 # test runner  运行器 一般通过runner来调用suit去执行测试
 #unitest 运行机制 通过main函数中，调用unitest main()运行所有的内容
 
-class BaiduTest(unittest.TestCase):  #通过继承unitest,TestCase来实现用例
-    def setup(self):
+class TestLogin(unittest.TestCase):  #通过继承unitest,TestCase来实现用例
+    # 类的初始化    在所有的用例运行之前先初始化所有的类，或者是释放整个类中的资源
+    # @classmethod
+    # def setUpClass(cls) -> None:
+    #     print("ret1")
+    #
+    # #  类的释放
+    # @classmethod
+    # def tearDownClass(cls) -> None:
+    #     print('ret2')
+
+
+    #  这里是用例的初始化
+    def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(20)
         self.driver.get('http://www.baidu.com')
 
+    def tearDown(self):
+        time.sleep(5)
+        self.driver.quit()
 
-    # 函数
-    def plus(self, a ,b):
-        c = a+b
-        print(c)
-        return c
     # 测试用例，加test才会认为你这个是测试用例
     def test_baidu(self):
-        pass
-    def test_youdao(self):
-        pass
-    def test_a(self):
-        self.plus(1, 2)
-        print('c')
+        self.driver.find_element_by_id('kw').send_keys('baidu')
+        self.driver.find_element_by_id('su').click()
 
-    def tearDown(self):
-        pass
+    def test_youdao(self):
+        self.driver.find_element_by_id('kw').send_keys('youdao')
+        self.driver.find_element_by_id('su').click()
+
 
 if __name__ == '__main__':
     unittest.main()
