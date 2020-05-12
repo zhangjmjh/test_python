@@ -41,7 +41,7 @@ class TestLogin(unittest.TestCase):  #通过继承unitest,TestCase来实现用�
 
     @data(('网易'), ('腾讯'))
     @unpack
-    def test_baidu(self ,txt, ret):     #  这里我只传入了一个参数，所以这里就只能写一个参数
+    def test_baidu(self ,txt, ret):     #  这里我只传入了一个参数，所以这里就只能写一个参数11
         self.driver.find_element_by_id('kw').send_keys(txt,ret)
         self.driver.find_element_by_id('su').click()
 
