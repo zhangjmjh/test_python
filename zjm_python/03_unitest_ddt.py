@@ -1,6 +1,6 @@
 from selenium import webdriver
 import unittest ,time
-from ddt import ddt, data, unpack
+from ddt import ddt, data
 # 四大组件
 # test fixture  setUp  tearDown
 # test case 测试用例 通过集成unitest TestCase 来实现用例的继承 在UniTest中，测试用例都是通过test来识别的
@@ -34,15 +34,10 @@ class TestLogin(unittest.TestCase):  #通过继承unitest,TestCase来实现用�
     # ddt的基本使用，在class的类前定义@ddt，用于表示要使用ddt了，再基于实际的应用，在data中写入我要传入的测试数据
     # ddt其实就是一个装饰器
 
-    # @data('百度', '阿里巴巴')
-    # def test_baidu(self ,txt):     #  这里我只传入了一个参数，所以这里就只能写一个参数
-    #     self.driver.find_element_by_id('kw').send_keys(txt)
-    #     self.driver.find_element_by_id('su').click()
 
     @data(('网易'), ('腾讯'))
-    @unpack
-    def test_baidu(self ,txt, ret):     #  这里我只传入了一个参数，所以这里就只能写一个参数11
-        self.driver.find_element_by_id('kw').send_keys(txt,ret)
+    def test_baidu(self ,txt):     #  这里我只传入了一个参数，所以这里就只能写一个参数11
+        self.driver.find_element_by_id('kw').send_keys(txt)
         self.driver.find_element_by_id('su').click()
 
 
