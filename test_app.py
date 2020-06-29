@@ -1,7 +1,10 @@
 from appium import webdriver
 import pytest
 # import unittest
-# from zfx_app_element import is_element_present
+from zfx_app_element import is_element_present
+# from appium.common.exceptions import NoSuchElementException
+# import time
+
 
 class TestSearch():
     def setup(self):
@@ -35,15 +38,18 @@ class TestSearch():
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  #   关闭活动弹窗
         #self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()    #  交易
         #self.driver.find_element_by_id('com.shenzhen.yirabbit:id/sureOpenButton').click()  #  新手指引(知道了)
-        #self.driver.find_element_by_id('com.shenzhen.yirabbit:id/sureOpenButton')  #  断言出现新手指引登陆成功
-        # is_element_present(self.driver, 'id', 'com.shenzhen.yirabbit:id/haveNotice')
+        # self.driver.find_element_by_id('com.shenzhen.yirabbit:id/sureOpenButton')  #  断言出现新手指引登陆成功
+        is_element_present(self.driver, 'id', 'com.shenzhen.yirabbit:id/haveNotic')
 
     # def test_transaction(self):  # 投票
     #     pass
 
     def teardown(self):
+        # time.sleep(5)
+        # self.driver.quit()
         pass
 
 if __name__ == '__main__':
     pytest.main()
+
 
