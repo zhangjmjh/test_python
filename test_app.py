@@ -1,9 +1,10 @@
 from appium import webdriver
 import pytest
+# import unittest
+# from zfx_app_element import is_element_present
 
 class TestSearch():
     def setup(self):
-
         desired_caps = {
             'platformName': 'Android',
             'deviceName': '7XBRX18B15002828',
@@ -28,22 +29,20 @@ class TestSearch():
         self.driver.find_element_by_id('com.shenzhen.yirabbit:id/priceRadioButton').click()   # 协议
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/loginButton").click()  # 弹窗
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/account").send_keys('18800000000')
-        self.driver.find_element_by_id("com.shenzhen.yirabbit:id/password").send_keys('Zz939495')
+        self.driver.find_element_by_id("com.shenzhen.yirabbit:id/password").send_keys('Qo123456')
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/finishButton").click()  #登陆
         self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()
-        self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()    #  交易
-        self.driver.find_element_by_id('com.shenzhen.yirabbit:id/sureOpenButton').click()  #  指引(知道了)
-
+        self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  #   关闭活动弹窗
+        #self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()    #  交易
+        #self.driver.find_element_by_id('com.shenzhen.yirabbit:id/sureOpenButton').click()  #  新手指引(知道了)
+        #self.driver.find_element_by_id('com.shenzhen.yirabbit:id/sureOpenButton')  #  断言出现新手指引登陆成功
+        # is_element_present(self.driver, 'id', 'com.shenzhen.yirabbit:id/haveNotice')
 
     # def test_transaction(self):  # 投票
     #     pass
 
-
-
     def teardown(self):
         pass
-
 
 if __name__ == '__main__':
     pytest.main()
