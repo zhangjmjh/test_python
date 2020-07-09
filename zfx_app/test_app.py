@@ -1,20 +1,19 @@
 from appium import webdriver
 import pytest
-from zfx_app_element import is_element_present
+from zfx_app.zfx_app_element import is_element_present
 import time
+import allure
+import os
 
 
+@allure.feature('对整个APP进行登陆断言、市价买入卖出并分批次平仓、停损挂单买入卖出并分批次平仓、限价挂单买入卖出并分批次平仓')
 class TestSearch():
-    def setup(self):
-        """
-        初始化整个APP运行环境
-        :return:
-        """
 
+    @allure.story('初始化整个APP运行环境')
+    def setup(self):
         desired_caps = {
             'platformName': 'Android',
-            # 'deviceName': '7XBRX18B15002828',
-            'deviceName': '8UR4C19B20015920',
+            'deviceName': '7XBRX18B15002828',    #  华为手机
             'platformVersion': '10',
             'appPackage': 'com.shenzhen.yirabbit',
             'appActivity': 'com.shenzhen.yirabbit.ui.activity.WelComeActivity',
@@ -25,16 +24,15 @@ class TestSearch():
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(10)
 
+    @allure.story('判断登陆 是否成功')
+    @pytest.mark.flaky(reruns=1, reruns_delay=5)
     def test_login(self):
-        """
-        判断登陆 是否成功
-        :return:
-        """
+        self.driver.implicitly_wait(15)
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  # 关闭活动弹窗
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()  # 交易
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/loginButton").click()  # 登陆
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/account").clear()
-        self.driver.find_element_by_id("com.shenzhen.yirabbit:id/account").send_keys('17111113333')
+        self.driver.find_element_by_id("com.shenzhen.yirabbit:id/account").send_keys('17111114444')
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/password").clear()
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/password").send_keys('Qo123456')
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/finishButton").click()  #登陆
@@ -43,11 +41,9 @@ class TestSearch():
         self.driver.implicitly_wait(15)
         is_element_present(self.driver, 'id', 'com.shenzhen.yirabbit:id/haveNotice')  #  断言出现平台公告的角标认为登陆成功
 
+    @allure.story('市价买入 澳元兑日元 平仓')
+    @pytest.mark.flaky(reruns=1, reruns_delay=5)
     def test_market_buy(self):
-        """
-        市价买入 澳元兑日元 平仓
-        :return:
-        """
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  # 关闭活动弹窗
         self.driver.implicitly_wait(10)
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()    #  交易
@@ -86,11 +82,9 @@ class TestSearch():
         self.driver.find_element_by_id('com.shenzhen.yirabbit:id/sureOpenButton').click()  # 确认平仓
         self.driver.find_element_by_android_uiautomator('text(\"查看持仓\")').click()  # 查看持仓
 
+    @allure.story('市价卖出 澳元兑日元 平仓')
+    @pytest.mark.flaky(reruns=1, reruns_delay=5)
     def test_market_sell(self):
-        """
-        市价卖出 澳元兑日元 平仓
-        :return:
-        """
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  # 关闭活动弹窗
         self.driver.implicitly_wait(10)
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()  # 交易
@@ -129,11 +123,9 @@ class TestSearch():
         self.driver.find_element_by_id('com.shenzhen.yirabbit:id/sureOpenButton').click()  # 确认平仓
         self.driver.find_element_by_android_uiautomator('text(\"查看持仓\")').click()  # 查看持仓
 
+    @allure.story('限价买入 澳元兑日元 撤单')
+    @pytest.mark.flaky(reruns=1, reruns_delay=5)
     def test_limit_buy(self):
-        """
-        限价买入 澳元兑日元 撤单
-        :return:
-        """
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  # 关闭活动弹窗
         self.driver.implicitly_wait(10)
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()  # 交易
@@ -148,7 +140,7 @@ class TestSearch():
         time.sleep(1)
         self.driver.find_element_by_xpath(
             "//*[@resource-id='com.shenzhen.yirabbit:id/xianjiaView']/android.widget.LinearLayout/android.widget.ImageView[1]").click()  # 停损买入设置价格 “-”
-        time.sleep(0.5)
+        time.sleep(0.2)
         self.driver.find_element_by_xpath(
             "//*[@resource-id='com.shenzhen.yirabbit:id/xianjiaView']/android.widget.LinearLayout/android.widget.ImageView[1]").click()
         self.driver.find_element_by_android_uiautomator('text(\"确认挂单\")').click()  # 确认挂单
@@ -157,11 +149,9 @@ class TestSearch():
         self.driver.find_element_by_android_uiautomator('text(\"撤单\")').click()  # 限价撤单
         self.driver.find_element_by_android_uiautomator('text(\"确认\")').click()  # 确认撤单
 
+    @allure.story('限价卖出 澳元兑日元 撤单')
+    @pytest.mark.flaky(reruns=1, reruns_delay=5)
     def test_limit_sell(self):
-        """
-        限价卖出 澳元兑日元 撤单
-        :return:
-        """
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  # 关闭活动弹窗
         self.driver.implicitly_wait(10)
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()  # 交易
@@ -176,7 +166,7 @@ class TestSearch():
         time.sleep(1)
         self.driver.find_element_by_xpath(
             "//*[@resource-id='com.shenzhen.yirabbit:id/xianjiaView']/android.widget.LinearLayout/android.widget.ImageView[2]").click()   # 限价买入设置价格 “+”
-        time.sleep(0.5)
+        time.sleep(0.2)
         self.driver.find_element_by_xpath(
             "//*[@resource-id='com.shenzhen.yirabbit:id/xianjiaView']/android.widget.LinearLayout/android.widget.ImageView[2]").click()   # 限价买入设置价格 “+”
         self.driver.find_element_by_android_uiautomator('text(\"确认挂单\")').click()  # 确认挂单
@@ -185,11 +175,9 @@ class TestSearch():
         self.driver.find_element_by_android_uiautomator('text(\"撤单\")').click()  # 限价撤单
         self.driver.find_element_by_android_uiautomator('text(\"确认\")').click()  # 确认撤单
 
+    @allure.story('停损买入 澳元兑日元 撤单')
+    @pytest.mark.flaky(reruns=1, reruns_delay=5)
     def test_stop_buy(self):
-        """
-        停损买入 澳元兑日元 撤单
-        :return:
-        """
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  # 关闭活动弹窗
         self.driver.implicitly_wait(10)
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()  # 交易
@@ -210,11 +198,9 @@ class TestSearch():
         self.driver.find_element_by_android_uiautomator('text(\"撤单\")').click()  # 限价撤单
         self.driver.find_element_by_android_uiautomator('text(\"确认\")').click()  # 确认撤单
 
+    @allure.story('停损卖出 澳元兑日元  撤单')
+    @pytest.mark.flaky(reruns=1, reruns_delay=5)
     def test_stop_sell(self):
-        """
-        停损卖出 澳元兑日元  撤单
-        :return:
-        """
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/closeImage").click()  # 关闭活动弹窗
         self.driver.implicitly_wait(10)
         self.driver.find_element_by_id("com.shenzhen.yirabbit:id/priceRadioButton").click()  # 交易
@@ -241,8 +227,12 @@ class TestSearch():
 
 if __name__ == '__main__':
     pytest.main()
+    # 执行pytest单元测试，生成 Allure 报告需要的数据存在 /temp 目录
+    #pytest.main(['--alluredir', './app_report'])
+    # 执行命令 allure generate ./temp -o ./report --clean ，生成测试报告
+    os.system('allure generate ./app_report -o ./app_report --clean')
 
 
-#//android.view.ViewGroup   #  根据 class  属性
-#//*[@resource-id='com.shenzhen.yirabbit:id/labels']/android.widget.TextView[1]  # 根据resource-id 的上层节点来定位
+
+
 

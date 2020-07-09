@@ -1,5 +1,3 @@
-#from appium.common.exceptions import NoSuchElementException
-
 def is_element_present(driver, how, what):  # 定义一个判断元素是否存在的函数，传3个参数
 
     print('start is_element_present ===>>>>')
@@ -15,7 +13,5 @@ def is_element_present(driver, how, what):  # 定义一个判断元素是否存�
         print(e)
 
     print('end is_element_present ===>>>>')
-
     return apppresent
 
-#assertFalse(apppresent, msg = "登陆失败")

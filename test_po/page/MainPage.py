@@ -1,7 +1,7 @@
 
 
-from zjm_page_object.page.BasePage import BasePage
-from zjm_page_object.page.SearchPage import SearchPage
+from test_po.page.BasePage import BasePage
+from test_po.page.SearchPage import SearchPage
 
 class MainPage(BasePage):
     def search(self, keyword):
