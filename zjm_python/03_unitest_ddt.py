@@ -8,7 +8,7 @@ from ddt import ddt, data
 # test runner  运行器 一般通过runner来调用suit去执行测试
 #unitest 运行机制 通过main函数中，调用unitest main()运行所有的内容
 
-@ddt
+# @ddt
 class TestLogin(unittest.TestCase):  #通过继承unitest,TestCase来实现用例
     # 类的初始化    在所有的用例运行之前先初始化所有的类，或者是释放整个类中的资源
     # @classmethod
@@ -23,7 +23,7 @@ class TestLogin(unittest.TestCase):  #通过继承unitest,TestCase来实现用�
     #  这里是用例的初始化
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(20)  #隐实
         self.driver.get('http://www.baidu.com')
 
     def tearDown(self):
@@ -35,9 +35,9 @@ class TestLogin(unittest.TestCase):  #通过继承unitest,TestCase来实现用�
     # ddt其实就是一个装饰器
 
 
-    @data(('网易'), ('腾讯'))
-    def test_baidu(self ,txt):     #  这里我只传入了一个参数，所以这里就只能写一个参数11
-        self.driver.find_element_by_id('kw').send_keys(txt)
+
+    def test_baidu(self):     #  这里我只传入了一个参数，所以这里就只能写一个参数11
+        self.driver.find_element_by_id('kw').send_keys("百度")
         self.driver.find_element_by_id('su').click()
 
 
