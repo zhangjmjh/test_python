@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="Python 基础知识" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/zjm_page_object/page/BasePage.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_app.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_page_object/page/SearchPage.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_page_object/page/MainPage.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/03_unitest_ddt.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/02_python.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/01_python.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/001_python基础.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_page_object/testcase/xuqiu.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_page_object/pageTest/base_page.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_page_object/pageTest/index.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_page_object/pageTest/Register.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/05_python.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/07_python.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1boVsn4Z6Fg0affYo6SOfL5bhxp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportQtDebugging" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\zhangjm_python\zjm_python_tetst" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.001_python基础">
+    <configuration name="001_python基础" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/001_python基础.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/07_python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="se" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/se.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in 03_unitest_ddt.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/zjm_python/03_unitest_ddt.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in 07_python.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/zjm_python/07_python.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.001_python基础" />
+        <item itemvalue="Python tests.Unittests in 07_python.py" />
+        <item itemvalue="Python.07_python" />
+        <item itemvalue="Python.se" />
+        <item itemvalue="Python tests.Unittests in 03_unitest_ddt.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="" />
+      <created>1589298642832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589298642832</updated>
+    </task>
+    <task id="LOCAL-00001" summary="我提交了一些关于ddt的更新">
+      <created>1589298731119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589298731119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="我提交了一些关于pageobject的更新">
+      <created>1590068949321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590068949321</updated>
+    </task>
+    <task id="LOCAL-00003" summary="这个工程是有关pageo_bject框架">
+      <created>1590319927687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590319927687</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Python 基础知识">
+      <created>1605013779733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605013779734</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="我提交了一些关于ddt的更新" />
+    <MESSAGE value="我提交了一些关于pageobject的更新" />
+    <MESSAGE value="这个工程是有关pageo_bject框架" />
+    <MESSAGE value="Python 基础知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python 基础知识" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1605013737925">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
+    <state width="1323" height="138" key="GridCell.Tab.0.center" timestamp="1605013737925">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
+    <state width="1323" height="138" key="GridCell.Tab.0.left" timestamp="1605013737925">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
+    <state width="1323" height="138" key="GridCell.Tab.0.right" timestamp="1605013737925">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
+    <state width="1323" height="169" key="GridCell.Tab.1.bottom" timestamp="1605011353444">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="169" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605011353444" />
+    <state width="1323" height="169" key="GridCell.Tab.1.center" timestamp="1605011353444">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="169" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605011353444" />
+    <state width="1323" height="169" key="GridCell.Tab.1.left" timestamp="1605011353444">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="169" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605011353444" />
+    <state width="1323" height="169" key="GridCell.Tab.1.right" timestamp="1605011353444">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="169" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605011353444" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605012083841">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605012083841" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zjm_python/07_python.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
