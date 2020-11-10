@@ -1,7 +1,7 @@
 
 from selenium import webdriver
 from selenium.webdriver import DesiredCapabilities
-from zjm_page_object.page.MainPage import MainPage
+from test_po.page.MainPage import MainPage
 from time import sleep
 
 class TestXueqiu(object):

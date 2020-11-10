@@ -1,4 +1,4 @@
-from zjm_page_object.page.BasePage import BasePage
+from test_po.page.BasePage import BasePage
 
 
 class SearchPage(BasePage):
