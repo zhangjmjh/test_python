@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="Python 基础知识" />
+    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="Python 基础知识">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/01_python基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/01_python基础.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +39,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/zjm_python/01_python基础.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/02_Notes_selenium.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/01_python基础.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1boVsn4Z6Fg0affYo6SOfL5bhxp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,8 +62,8 @@
       <recent name="E:\zhangjm_python\zjm_python_tetst" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.001_python基础">
-    <configuration name="01_python基础" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.01_python基础 (1)">
+    <configuration name="01_python基础 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\01_python基础.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/01_python基础.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.001_python基础" />
+        <item itemvalue="Python.01_python基础 (1)" />
         <item itemvalue="Python tests.Unittests in 02_Notes_selenium.py" />
         <item itemvalue="Python.02_Notes_selenium" />
         <item itemvalue="Python.se" />
@@ -207,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605015410657</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Python 基础知识">
+      <created>1605015443065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605015443065</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,22 +241,26 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1605013737925">
+    <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1605071741217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
-    <state width="1323" height="138" key="GridCell.Tab.0.center" timestamp="1605013737925">
+    <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605071741217" />
+    <state width="1323" height="138" key="GridCell.Tab.0.center" timestamp="1605071741217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
-    <state width="1323" height="138" key="GridCell.Tab.0.left" timestamp="1605013737925">
+    <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605071741217" />
+    <state width="1323" height="138" key="GridCell.Tab.0.left" timestamp="1605071741217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
-    <state width="1323" height="138" key="GridCell.Tab.0.right" timestamp="1605013737925">
+    <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605071741217" />
+    <state width="1323" height="138" key="GridCell.Tab.0.right" timestamp="1605071741217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
+    <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605071741217" />
     <state width="1323" height="169" key="GridCell.Tab.1.bottom" timestamp="1605011353444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

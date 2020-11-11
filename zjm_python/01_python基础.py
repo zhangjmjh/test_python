@@ -25,7 +25,7 @@ list=['luoahong','chenqun','wenhai','daiqiao','xiedi','guiwei']
 # list.remove('guiwei')
 # print(list)   #  结果：['luoahong', 'chenqun', 'wenhai', 'daiqiao', 'xiedi']
 
-# list.pop(0)
+# list.pop(0)  # 删除指定位置的元素
 # print(list)   # 结果：['chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei']
 
 # 7、排序
@@ -59,7 +59,7 @@ tup = (1, 2, ['a', 'b', 'c'], 'd', 'e', ('gu', 'tang'), 1)
 # 3、计算元组中元素的长度
 # print(len(tup))  # 结果： 6
 
-# 4、统计元素个数
+# 4、统计元素出现的个数
 # print(tup.count(1))    # 结果：  2
 
 # 字典
@@ -92,3 +92,27 @@ dict = {"color":"green","points":5}
 #     print(i)  # 结果： color points
 # for i in dict.values():
 #     print(i)  # 结果：green  5
+
+# 冒泡小程序
+# list = [88, 66, 99, 11, 77, 22]
+# def bubble_sort(list):
+#     n = len(list)
+#     for j in range(n - 1):
+#         for i in range(n - 1 - j):
+#             if list[i] > list[i + 1]:
+#                 list[i], list[i + 1] = list[i + 1], list[i]
+# bubble_sort(list)
+# print(list)    # 结果：[11, 11, 22, 66, 77, 88, 99]
+
+# 1-100之间的偶数
+# sum1 = 0
+# for i in range(1,101):
+#     if i % 2 == 0:
+#         sum1 = sum1 +i
+# print('1-100之间偶数的和是:''%d'%(sum1))
+
+#左下三角格式输出九九乘法表
+# for i in range(1,10):
+#     for j in range(1,1+i):
+#        print("%d*%d=%d" % (i,j,i*j),end=" ")
+#     print (" ")
