@@ -94,15 +94,15 @@ dict = {"color":"green","points":5}
 #     print(i)  # 结果：green  5
 
 # 冒泡小程序
-# list = [88, 66, 99, 11, 77, 22]
-# def bubble_sort(list):
-#     n = len(list)
-#     for j in range(n - 1):
-#         for i in range(n - 1 - j):
-#             if list[i] > list[i + 1]:
-#                 list[i], list[i + 1] = list[i + 1], list[i]
-# bubble_sort(list)
-# print(list)    # 结果：[11, 11, 22, 66, 77, 88, 99]
+# list = [5, 23, 3, 2, 54, 4, 6, 8, 856]
+# list_len = len(list)
+#
+# for i in range(list_len - 1):
+#     for j in range(i, list_len):
+#         if list[i] > list[j]:
+#             list[i], list[j] = list[j], list[i]
+# print(list)  # 结果：[2, 3, 4, 5, 6, 8, 23, 54, 856]
+
 
 # 1-100之间的偶数
 # sum1 = 0
