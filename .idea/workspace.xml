@@ -19,15 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="Python 基础知识">
-      <change afterPath="$PROJECT_DIR$/zjm_python/04-转换相关方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/05-局部变量和全局变量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/06-默认参数的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/07-可变参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/08-递归函数的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/09-匿名函数的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/10-sorted方法的使用.py" afterDir="false" />
+    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="Python 函数的使用方法 补充">
+      <change afterPath="$PROJECT_DIR$/zjm_python/10-filter方法的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/11-map方法的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/12-reduce方法的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/13-高阶函数1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/14-高阶函数2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/15-计算一段代码的执行时间.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/16-装饰器1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/17-装饰器2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/18-装饰器3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/19-导入模块的用法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/01_python基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/01_python基础.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/03_Notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/03_Notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/07-可变参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/07-可变参数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/10-sorted方法的使用.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +52,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/zjm_python/17-装饰器2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/18-装饰器3.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/19-导入模块的用法.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/03_Notes.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/05-局部变量和全局变量.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/01_python基础.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/06-默认参数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/07-可变参数.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/08-递归函数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/09-匿名函数的使用.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/10-sorted方法的使用.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/10-filter方法的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/04-转换相关方法.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/11-map方法的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/02_Notes_selenium.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/05-局部变量和全局变量.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/01_python基础.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/12-reduce方法的使用.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/13-高阶函数1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/14-高阶函数2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/15-计算一段代码的执行时间.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/16-装饰器1.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1boVsn4Z6Fg0affYo6SOfL5bhxp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,7 +95,28 @@
       <recent name="E:\zhangjm_python\zjm_python_tetst" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10-sorted方法的使用">
+  <component name="RunManager" selected="Python.01_python基础">
+    <configuration name="01_python基础" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/01_python基础.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="05-局部变量和全局变量" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,27 +130,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/05-局部变量和全局变量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="06-默认参数的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zhangjm_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/06-默认参数的使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="08-递归函数的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="17-装饰器2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +171,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/08-递归函数的使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/17-装饰器2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09-匿名函数的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="18-装饰器3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +192,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/09-匿名函数的使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/18-装饰器3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +201,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10-sorted方法的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="19-导入模块的用法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,7 +213,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/10-sorted方法的使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/19-导入模块的用法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,19 +246,19 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.05-局部变量和全局变量" />
-      <item itemvalue="Python.06-默认参数的使用" />
       <item itemvalue="Python.07-可变参数" />
-      <item itemvalue="Python.08-递归函数的使用" />
-      <item itemvalue="Python.09-匿名函数的使用" />
-      <item itemvalue="Python.10-sorted方法的使用" />
+      <item itemvalue="Python.17-装饰器2" />
+      <item itemvalue="Python.18-装饰器3" />
+      <item itemvalue="Python.19-导入模块的用法" />
+      <item itemvalue="Python.01_python基础" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10-sorted方法的使用" />
-        <item itemvalue="Python.09-匿名函数的使用" />
-        <item itemvalue="Python.08-递归函数的使用" />
+        <item itemvalue="Python.01_python基础" />
+        <item itemvalue="Python.19-导入模块的用法" />
+        <item itemvalue="Python.18-装饰器3" />
+        <item itemvalue="Python.17-装饰器2" />
         <item itemvalue="Python.07-可变参数" />
-        <item itemvalue="Python.06-默认参数的使用" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605761824518</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Python 函数的使用方法 补充">
+      <created>1606051530481</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606051530481</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Python 函数的使用方法 补充">
+      <created>1606051536945</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606051536945</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,40 +363,41 @@
     <MESSAGE value="我提交了一些关于pageobject的更新" />
     <MESSAGE value="这个工程是有关pageo_bject框架" />
     <MESSAGE value="Python 基础知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python 基础知识" />
+    <MESSAGE value="Python 函数的使用方法 补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python 函数的使用方法 补充" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606026066271">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606124485604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606026066271" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606124485604" />
     <state x="446" y="193" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606017890148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="446" y="193" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606017890148" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1606051230564">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1606139163059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606051230564" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606139163059" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652474" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1606051230563">
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1606139163059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606051230563" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606139163059" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652472" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1606051230563">
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1606139163058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606051230563" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606139163058" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652140" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1606051230563">
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1606139163059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606051230563" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606139163059" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652473" />
     <state width="1323" height="169" key="GridCell.Tab.1.bottom" timestamp="1606025706813">
@@ -408,16 +440,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605012083841" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/zjm_python/02_Notes_selenium.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

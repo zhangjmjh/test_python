@@ -1,49 +1,80 @@
+# 字符串
+a = 'afasdfasdf'
+
+# 1、访问字符串中的值
+var1 = 'Hello World!'
+# print(var1[0]) # 结果：H
+
+# 2、字符串连接
+var1 = 'Hello World!'
+# print(var1+'haha') # 结果：Hello World!haha
+
+# 3、格式化字符串  %s 格式化字符串  %d 格式化整数
+# print("My name is %s and weight is %d kg!" % ('Zara', 21))
+# 结果：My name is Zara and weight is 21 kg!
+
+# 4、字符串切片
+txt = "Google#Runoob#Taobao#Facebook"
+x = txt.split("#", 1)  # 以#号作为分割 第二个参数为 1，返回两个参数列表
+# print(x)  # ['Google', 'Runoob#Taobao#Facebook']
+
+# 5、将数字转换成字符串
+tt = 322
+tem = '%d' % tt
+print(tem)  # 322
+print(type(tem))  # <class 'str'>
+
 #  列表
-list=['luoahong','chenqun','wenhai','daiqiao','xiedi','guiwei']
+list = ['luoahong', 'chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei']
 
 # 1、取值
-# a = list[0]
+a = list[0]
 # print(a)     #  结果：luoahong
 
 # 2、切片
-# a = list[1:3]
+a = list[1:3]
 # print(a)    #  结果：['chenqun', 'wenhai']
 
 # 3、增加元素
-# list.append("haha")
+list.append("haha")
 # print(list)   #  结果：['luoahong', 'chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei', 'haha']
 
 # 4、指定位置插入元素
-# list.insert(0, "xxx")
+list.insert(0, "xxx")
 # print(list)    #  结果：['xxx', 'luoahong', 'chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei']
 
 # 5、修改
-# list[0] = "zjm"
-# print(list)    #  结果：['zjm', 'chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei']
+list[0] = "zjm"
+# print(list)    #  ['zjm', 'chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei']
 
 # 6、 删除
-# list.remove('guiwei')
-# print(list)   #  结果：['luoahong', 'chenqun', 'wenhai', 'daiqiao', 'xiedi']
+list.remove('guiwei')
+# print(list)   # ['luoahong', 'chenqun', 'wenhai', 'daiqiao', 'xiedi']
 
-# list.pop(0)  # 删除指定位置的元素
-# print(list)   # 结果：['chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei']
+list.pop(0)  # 删除指定位置的元素
+# print(list)   # ['chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei']
 
 # 7、排序
-# list.sort();
-# print(list)  # 结果： ['chenqun', 'daiqiao', 'guiwei', 'luoahong', 'wenhai', 'xiedi']
+list.sort();
+# print(list)  #  ['chenqun', 'daiqiao', 'guiwei', 'luoahong', 'wenhai', 'xiedi']
 
-# list.sort(reverse=True)  #   降序
-# print(list)   #  结果： ['xiedi', 'wenhai', 'luoahong', 'guiwei', 'daiqiao', 'chenqun']
+list.sort(reverse=True)  # 降序
+# print(list)   #  ['xiedi', 'wenhai', 'luoahong', 'guiwei', 'daiqiao', 'chenqun']
 
 # 8、获取下标
-# a = list.index('luoahong')
-# print(a)   # 结果：  0
+a = list.index('luoahong')
+# print(a)   # 0
 
 # 9、列表去重
-# list1 = ['1','1','2','2','3','3','3']
+list1 = ['1', '1', '2', '2', '3', '3', '3']
 # list1 = list(set(list1))
-# print(list1)   # 结果：['3', '2', '1']
+# print(list1)   # ['3', '2', '1']
 
+# 10、sort 高级用法 给列表里面的字典来排序
+student = [{'name': 'jerry', 'age': 80}, {'name': 'herry', 'age': 10}]
+student.sort(key=lambda ele: ele['name'])  # ele 可以随意定义
+# print(student)
+# 结果：[{'name': 'jerry', 'age': 80}, {'name': 'herry', 'age': 10}]
 
 # 元组
 tup = (1, 2, ['a', 'b', 'c'], 'd', 'e', ('gu', 'tang'), 1)
@@ -52,8 +83,8 @@ tup = (1, 2, ['a', 'b', 'c'], 'd', 'e', ('gu', 'tang'), 1)
 # print(tup[0])    # 结果：1
 
 # 2、列表转换成元组
-# list = ["python book","Mac","bile","kindle"]
-# tup = tuple(list)
+list = ["python book", "Mac", "bile", "kindle"]
+tup = tuple(list)
 # print(tup)   # 结果：('python book', 'Mac', 'bile', 'kindle')
 
 # 3、计算元组中元素的长度
@@ -63,7 +94,7 @@ tup = (1, 2, ['a', 'b', 'c'], 'd', 'e', ('gu', 'tang'), 1)
 # print(tup.count(1))    # 结果：  2
 
 # 字典
-dict = {"color":"green","points":5}
+dict = {"color": "green", "points": 5}
 
 # 1、查
 # print(dict["color"])   # 结果：green
@@ -72,26 +103,24 @@ dict = {"color":"green","points":5}
 # print(a)  # 结果： green
 
 # 2、增加
-# dict["token"] = "123"
+dict["token"] = "123"
 # print(dict)   # 结果： {'color': 'green', 'points': 5, 'token': '123'}
 
 # 3、改
-# dict["token"] = "456"
+dict["token"] = "456"
 # print(dict)   # 结果： {'color': 'green', 'points': 5, 'token': '456'}
 
-# 4、
-
-
-# 5、pop 删除指定的键
-# dict.pop("color")
+# 4、pop 删除指定的键
+dict.pop("color")
 # print(dict)  # 结果：{'points': 5}
 
-# 6、输出 key 和 value
+# 5、输出 key 和 value
 # dict = {"color":"green","points":5}
 # for i in dict.keys():
 #     print(i)  # 结果： color points
 # for i in dict.values():
 #     print(i)  # 结果：green  5
+
 
 # 冒泡小程序
 # list = [5, 23, 3, 2, 54, 4, 6, 8, 856]
@@ -111,8 +140,47 @@ dict = {"color":"green","points":5}
 #         sum1 = sum1 +i
 # print('1-100之间偶数的和是:''%d'%(sum1))
 
-#左下三角格式输出九九乘法表
+
+# 左下三角格式输出九九乘法表
 # for i in range(1,10):
 #     for j in range(1,1+i):
 #        print("%d*%d=%d" % (i,j,i*j),end=" ")
 #     print (" ")
+
+
+# 获取某个字符串出现位置和次数
+# def getStrInfo(str, target):
+#     count = 0
+#     for index, i in enumerate(str):
+#         if target == i:
+#             count += 1
+#             print(target, '出现的位置:', index)  # 出现的位置
+#     print(target, '出现的次数:', count)  # 出现的次数
+# getStrInfo("asfafaadfa", "a")
+
+
+# enumerate 在字典上是枚举、列举的意思 参数为可遍历/可迭代的对象(如列表、字符串)
+# enumerate 多用于在for循环中得到计数，利用它可以同时获得索引和值，即需要index和value值的时候可以使用
+# def get_number(ret, clc):
+#     count = 0
+#     for i, value in enumerate(ret):
+#         if value == clc:
+#             count += 1
+#             print(clc, "出现的位置", i)
+#     print(clc, "出现的次数", count)
+# get_number("afasfasdf", "a")
+
+# enumerate 方法举例
+# a = "afasfasdf"
+# for i in enumerate(a):
+#     print(i)
+# 结果
+# (0, 'a')
+# (1, 'f')
+# (2, 'a')
+# (3, 's')
+# (4, 'f')
+# (5, 'a')
+# (6, 's')
+# (7, 'd')
+# (8, 'f')

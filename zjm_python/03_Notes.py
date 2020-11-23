@@ -101,24 +101,21 @@ if __name__ == '__main__':
 
 """
 
-"""
-request:
-
-
 import requests
 import json
 
+
 class RunMain:
 
-    def send_get(self, url ,data):
-        r = requests.get(url = url ,params = data).json()
+    def send_get(self, url, data):
+        r = requests.get(url=url, params=data).json()
         return r
 
-    def send_post(self, url ,data):
-        r = requests.post(url = url ,data = data).json()
+    def send_post(self, url, data):
+        r = requests.post(url=url, data=data).json()
         return r
 
-    def run_main(self, url ,methon ,data= None):
+    def run_main(self, url, methon, data=None):
         r = None
         if methon == 'GET':
             r = self.send_get(url, data)
@@ -126,36 +123,43 @@ class RunMain:
             r = self.send_post(url, data)
         return r
 
+
 if __name__ == '__main__':
     url = 'http://web.juhe.cn:8080/finance/stock/hs'
-    data = {'key':'1c705503c9bc44c87227fdfb854557c6', 'gid': 'sh601009'}
+    data = {'key': '1c705503c9bc44c87227fdfb854557c6', 'gid': 'sh601009'}
     run = RunMain()
-    print(run.run_main(url ,'GET' , data))
+    print(run.run_main(url, 'GET', data))
 
 
 def person(name, age, **kw):
-    print('name:', name , 'age:',age , 'other:', kw)
+    print('name:', name, 'age:', age, 'other:', kw)
+
+
 person('jack', 18)
 
+
 class Student(object):
-    def __init__(self , name , score):
+    def __init__(self, name, score):
         self.name = name
         self.score = score
-bart = Student('jack' , 99)
+
+
+bart = Student('jack', 99)
 print(bart.name)
 
+
 class Student1(object):
-    def __init__(self , name , score):
+    def __init__(self, name, score):
         self.name = name
         self.score = score
+
     def print_score(self):
-        print('%s:%d'%(self.name , self.score))
-bart = Student('jack' , 99)
+        print('%s:%d' % (self.name, self.score))
+
+
+bart = Student('jack', 99)
 print(bart.score)
 
-"""
-
-"""
 # #  调用函数
 # from abstest import my_abs    # 这里我是在调用 abstest （文件名，不含.py的扩展名  导入 my_abs这个函数名来获取的）
 # print(my_abs(-888))           # 注意一定要在同一个目录文件下，不在同一个目录文件下是调用不了的
@@ -170,50 +174,3 @@ print(bart.score)
 #         s = s * x
 #     return s
 # print(power(5 ,2))
-
-
-# 可变参数                 可变参数允许你传入0个或任意个参数，这些可变参数在函数调用时自动组装为一个tuple
-# def calc(*number):       #  这是位置参数的用法，就是我不知道我要传多少个参数，我用一个*号来表示，里面可以是列表或者是元组
-#     sum = 0              # 下面的函数就是一个求各个数的平方数之和，我调用参数的时候这里可以传很多个参数
-#     for i in number:
-#         sum = sum + i * i
-#     return sum
-# a = calc(1,2,4)
-# print(a)
-
-
-#关键字参数1                       而关键字参数允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict
-# def person(name ,age ,**kw):      #  这个**kw  是关键字参数，可以预先定义一个完整的字典，然后传到**kw里面
-#     print("name:",name, "age:",age ,"othoer:",kw)
-# a = person("jerry", 27)
-# print(a)
-
-
-# #关键字参数2
-# a = {'city':'beijing', 'job':'engineer'}      #  这个是关键字参数的另一种用法，提前定义一个字典，调用函数的时候，直接用**
-# def person(name , age , **kw):                #  加你之前定义的那个字典就可以使用了，和上面的使用效果是一样的
-#     print('name:',name , 'age:', age , 'other:', kw)
-# a = person('jerry', 24 , **a)
-# print(a)
-# #关键字参数有什么用？它可以扩展函数的功能。比如，在person函数里，我们保证能接收到name和age这两个参数，但是，如果调用者
-# # 愿意提供更多的参数，我们也能收到。试想你正在做一个用户注册的功能，除了用户名和年龄是必填项外，其他都是可选项，利用关键字
-# # 参数来定义这个函数就能满足注册的需求。
-
-
-# 装饰器
-
-# def logger (func):
-#     def wrapper(*args , **kw):
-#         print('我准备开始计算：{}函数了:'.format(func.__name__))
-#
-#         # func(*args , **kw)
-#
-#         print('计算结束')
-#     return wrapper()
-#
-# @logger
-# def add(x ,y):
-#     print('{} +{} = {]' .format(x ,y, x+y))
-# a = add(200, 500)
-# print(a)
-"""
