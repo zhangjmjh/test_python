@@ -21,8 +21,8 @@ x = txt.split("#", 1)  # 以#号作为分割 第二个参数为 1，返回两个
 # 5、将数字转换成字符串
 tt = 322
 tem = '%d' % tt
-print(tem)  # 322
-print(type(tem))  # <class 'str'>
+# print(tem)  # 322
+# print(type(tem))  # <class 'str'>
 
 #  列表
 list = ['luoahong', 'chenqun', 'wenhai', 'daiqiao', 'xiedi', 'guiwei']
@@ -62,7 +62,7 @@ list.sort(reverse=True)  # 降序
 # print(list)   #  ['xiedi', 'wenhai', 'luoahong', 'guiwei', 'daiqiao', 'chenqun']
 
 # 8、获取下标
-a = list.index('luoahong')
+# a = list.index('luoahong')
 # print(a)   # 0
 
 # 9、列表去重
@@ -72,7 +72,7 @@ list1 = ['1', '1', '2', '2', '3', '3', '3']
 
 # 10、sort 高级用法 给列表里面的字典来排序
 student = [{'name': 'jerry', 'age': 80}, {'name': 'herry', 'age': 10}]
-student.sort(key=lambda ele: ele['name'])  # ele 可以随意定义
+# student.sort(key=lambda ele: ele['name'])  # ele 可以随意定义
 # print(student)
 # 结果：[{'name': 'jerry', 'age': 80}, {'name': 'herry', 'age': 10}]
 
@@ -84,7 +84,7 @@ tup = (1, 2, ['a', 'b', 'c'], 'd', 'e', ('gu', 'tang'), 1)
 
 # 2、列表转换成元组
 list = ["python book", "Mac", "bile", "kindle"]
-tup = tuple(list)
+# tup = tuple(list)
 # print(tup)   # 结果：('python book', 'Mac', 'bile', 'kindle')
 
 # 3、计算元组中元素的长度
@@ -96,6 +96,7 @@ tup = tuple(list)
 # 字典
 dict = {"color": "green", "points": 5}
 
+
 # 1、查
 # print(dict["color"])   # 结果：green
 
@@ -103,15 +104,17 @@ dict = {"color": "green", "points": 5}
 # print(a)  # 结果： green
 
 # 2、增加
-dict["token"] = "123"
+# dict["token"] = "123"
 # print(dict)   # 结果： {'color': 'green', 'points': 5, 'token': '123'}
 
 # 3、改
-dict["token"] = "456"
+# dict["token"] = "456"
 # print(dict)   # 结果： {'color': 'green', 'points': 5, 'token': '456'}
 
 # 4、pop 删除指定的键
-dict.pop("color")
+# dict.pop("color")
+
+
 # print(dict)  # 结果：{'points': 5}
 
 # 5、输出 key 和 value
@@ -184,3 +187,91 @@ dict.pop("color")
 # (6, 's')
 # (7, 'd')
 # (8, 'f')
+
+# 编写一个函数，求多个数中的最大值
+# def get_max(*args):
+#     x = args[0]
+#     for i in args:
+#         if i > x:
+#             x = i
+#     return x
+# print(get_max(3, 8, 9, 3, 6, 3)) # 9
+
+# 编写一个函数，提取指定字符串中所有的字母，然后拼接在一起组成一个新的字符串
+# def new_alphas(word):
+#     new_str = ''
+#     for i in word:
+#         if i.isalpha():
+#             new_str += i
+#     return new_str
+#
+#
+# print(new_alphas('rwer23232erw'))  # rwererw
+
+
+# 写一个函数，默认求10的阶乘，也可以求其他数字的阶乘
+# def get_factorial(n=10):
+#     x = 1
+#     for i in range(1, n + 1):
+#         x *= i
+#     return x
+#
+#
+# print(get_factorial(5))  # 120
+
+
+# 写一个函数 求多个数的平均值
+# def num(*args):
+#     x = 0
+#     for i in args:
+#         x += i
+#     return x / len(args)
+#
+#
+# print(num(1, 2, 3))  # 2.0
+
+
+# 写一个capitalize函数 能够将指定字符串的首字母变成大写字母
+def capitalize(str):
+    c = str[0]
+    if 'z' >= c >= 'a':
+        new_str = str[1:]
+        return c.upper() + new_str
+    return str
+
+
+print(capitalize('rwerwrw'))  # Rwerwrw
+
+
+# 写一个endwith函数 判断一个字符串是否以指定的字符串结束
+# def endwith(ols_str,str1):
+#     if ols_str[-len(str1):] == str1:
+#     #     print('是')
+#     # else:
+#     #     print('否')
+#
+# endwith('hello','llo')  # 是
+
+# 写一个isdigit函数 判断一个字符串是否是纯数字字符串
+def isdigit(str):
+    for i in str:
+        if not '0' <= i <= '9':
+            return False
+    return True
+
+
+print(isdigit('hee99'))  # False
+
+
+# 写一个自己的max函数 获取序列中元素的最大值 如果序列是字典 获取字典的最大值
+def get_max(ret):
+    if type(ret) == dict:
+        ret = list(ret.values())
+    a = ret[0]
+    for i in ret:
+        if i > a:
+            a = i
+    return a
+
+
+print(get_max([2, 5, 8, 6, 3, 1]))  # 8

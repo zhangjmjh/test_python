@@ -19,22 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="Python 函数的使用方法 补充">
-      <change afterPath="$PROJECT_DIR$/zjm_python/10-filter方法的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/11-map方法的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/12-reduce方法的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/13-高阶函数1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/14-高阶函数2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/15-计算一段代码的执行时间.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/16-装饰器1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/17-装饰器2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/18-装饰器3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/19-导入模块的用法.py" afterDir="false" />
+    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="学习">
+      <change afterPath="$PROJECT_DIR$/zjm_python/20-sys模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/21-math模块的用法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/22-randow模块的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/23-hashlib和hmac模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/24-自定义模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/25-面向对象基本语法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/26-selef的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/27-魔术方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/28-函数的练习.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zjm_python/01_python基础.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/01_python基础.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zjm_python/03_Notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/03_Notes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zjm_python/07-可变参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/07-可变参数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zjm_python/10-sorted方法的使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/19-导入模块的用法.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/19-os模块的用法.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -54,18 +52,27 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/zjm_python/17-装饰器2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/18-装饰器3.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/19-导入模块的用法.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/03_Notes.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/19-os模块的用法.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/22-randow模块的使用.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/23-hashlib和hmac模块.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/26-selef的使用.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/24-自定义模块.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/25-面向对象基本语法.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/27-魔术方法.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/28-函数的练习.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/05-局部变量和全局变量.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/01_python基础.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/21-math模块的用法.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/20-sys模块.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/04-转换相关方法.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/02_Notes_selenium.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/03_Notes.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/06-默认参数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/07-可变参数.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/08-递归函数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/09-匿名函数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/10-filter方法的使用.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/04-转换相关方法.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/11-map方法的使用.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/02_Notes_selenium.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/12-reduce方法的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/13-高阶函数1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/14-高阶函数2.py" root0="SKIP_INSPECTION" />
@@ -138,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07-可变参数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="24-自定义模块" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/07-可变参数.py" />
+      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\24-自定义模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17-装饰器2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="25-面向对象基本语法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,7 +178,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/17-装饰器2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/25-面向对象基本语法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="18-装饰器3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="26-selef的使用 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,7 +199,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/18-装饰器3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/26-selef的使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19-导入模块的用法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="26-selef的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,7 +220,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/19-导入模块的用法.py" />
+      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\26-selef的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="27-魔术方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/27-魔术方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="28-函数的练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/28-函数的练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,22 +292,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.05-局部变量和全局变量" />
-      <item itemvalue="Python.07-可变参数" />
-      <item itemvalue="Python.17-装饰器2" />
-      <item itemvalue="Python.18-装饰器3" />
-      <item itemvalue="Python.19-导入模块的用法" />
+      <item itemvalue="Python.25-面向对象基本语法" />
+      <item itemvalue="Python.26-selef的使用 (1)" />
+      <item itemvalue="Python.27-魔术方法" />
+      <item itemvalue="Python.28-函数的练习" />
       <item itemvalue="Python.01_python基础" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.01_python基础" />
-        <item itemvalue="Python.19-导入模块的用法" />
-        <item itemvalue="Python.18-装饰器3" />
-        <item itemvalue="Python.17-装饰器2" />
-        <item itemvalue="Python.07-可变参数" />
+        <item itemvalue="Python.28-函数的练习" />
+        <item itemvalue="Python.27-魔术方法" />
+        <item itemvalue="Python.26-selef的使用 (1)" />
+        <item itemvalue="Python.25-面向对象基本语法" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606051536945</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="学习">
+      <created>1606139303098</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606139303098</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +441,8 @@
     <MESSAGE value="这个工程是有关pageo_bject框架" />
     <MESSAGE value="Python 基础知识" />
     <MESSAGE value="Python 函数的使用方法 补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python 函数的使用方法 补充" />
+    <MESSAGE value="学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -376,28 +454,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="446" y="193" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606017890148" />
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1606139163059">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1606232723503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606139163059" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606232723503" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652474" />
-    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1606139163059">
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1606232723503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606139163059" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606232723503" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652472" />
-    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1606139163058">
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1606232723503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606139163058" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606232723503" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652140" />
-    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1606139163059">
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1606232723503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606139163059" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606232723503" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652473" />
     <state width="1323" height="169" key="GridCell.Tab.1.bottom" timestamp="1606025706813">
@@ -436,9 +514,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605015106417" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605012083841">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606228634981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606228634981" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605012083841" />
   </component>
 </project>
