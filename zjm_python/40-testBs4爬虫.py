@@ -41,3 +41,4 @@ t_list = bs.find_all(text=re.compile('\d'))  # 应用正则表达式来查找包
 
 for i in t_list:
     print(i)  # hao123
+    print(i)  # hao123
