@@ -19,18 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="面向对象、函数 补充">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/29-内置函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/30-把对象当做一个字典来使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/31-对象属性和类属性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/32-私有属性的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/33-文件的操作1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/34-文件的操作2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/test_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="文件的读取操作">
+      <change afterPath="$PROJECT_DIR$/zjm_python/37-异常处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/39-testUellib爬虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/baidu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zjm_python/28-面向对象练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/28-面向对象练习.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +65,8 @@
     <setting file="file://$PROJECT_DIR$/zjm_python/32-私有属性的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/33-文件的操作1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/34-文件的操作2.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/37-异常处理.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/04-转换相关方法.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/02_Notes_selenium.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/03_Notes.py" root0="SKIP_INSPECTION" />
@@ -78,11 +75,14 @@
     <setting file="file://$PROJECT_DIR$/zjm_python/08-递归函数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/09-匿名函数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/10-filter方法的使用.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/39-testUellib爬虫.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/11-map方法的使用.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/12-reduce方法的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/13-高阶函数1.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/14-高阶函数2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/15-计算一段代码的执行时间.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/baidu.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/16-装饰器1.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1boVsn4Z6Fg0affYo6SOfL5bhxp" />
@@ -98,17 +98,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\zhangjm_python\zjm_python" />
       <recent name="E:\zhangjm_python\zjm_python_tetst" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.34-文件的操作2">
+  <component name="RunManager" selected="Python.40-testBs4爬虫">
     <configuration name="05-局部变量和全局变量" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,90 +131,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="31-对象属性和类属性" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zhangjm_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/31-对象属性和类属性.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="32-私有属性的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zhangjm_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/32-私有属性的使用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="33-文件的操作1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zhangjm_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/33-文件的操作1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="33-文件的操作1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zhangjm_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\33-文件的操作1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="34-文件的操作2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,6 +144,90 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/34-文件的操作2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="37-异常处理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/37-异常处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="38-爬虫分析01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="39-testUellib爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\39-testUellib爬虫.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="40-testBs4爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,19 +260,19 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.05-局部变量和全局变量" />
-      <item itemvalue="Python.31-对象属性和类属性" />
-      <item itemvalue="Python.32-私有属性的使用" />
-      <item itemvalue="Python.33-文件的操作1" />
-      <item itemvalue="Python.33-文件的操作1 (1)" />
       <item itemvalue="Python.34-文件的操作2" />
+      <item itemvalue="Python.37-异常处理" />
+      <item itemvalue="Python.38-爬虫分析01" />
+      <item itemvalue="Python.39-testUellib爬虫" />
+      <item itemvalue="Python.40-testBs4爬虫" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.40-testBs4爬虫" />
+        <item itemvalue="Python.38-爬虫分析01" />
+        <item itemvalue="Python.39-testUellib爬虫" />
+        <item itemvalue="Python.37-异常处理" />
         <item itemvalue="Python.34-文件的操作2" />
-        <item itemvalue="Python.33-文件的操作1 (1)" />
-        <item itemvalue="Python.33-文件的操作1" />
-        <item itemvalue="Python.32-私有属性的使用" />
-        <item itemvalue="Python.31-对象属性和类属性" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606364427095</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="文件的读取操作">
+      <created>1606576202939</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606576202939</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,7 +408,8 @@
     <MESSAGE value="Python 函数的使用方法 补充" />
     <MESSAGE value="学习" />
     <MESSAGE value="面向对象、函数 补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象、函数 补充" />
+    <MESSAGE value="文件的读取操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件的读取操作" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -416,28 +425,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="446" y="193" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606017890148" />
-    <state width="1323" height="177" key="GridCell.Tab.0.bottom" timestamp="1606576034770">
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom" timestamp="1606660063016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606576034770" />
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606660063016" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652474" />
-    <state width="1323" height="177" key="GridCell.Tab.0.center" timestamp="1606576034770">
+    <state width="1323" height="213" key="GridCell.Tab.0.center" timestamp="1606660063016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606576034770" />
+    <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606660063016" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652472" />
-    <state width="1323" height="177" key="GridCell.Tab.0.left" timestamp="1606576034770">
+    <state width="1323" height="213" key="GridCell.Tab.0.left" timestamp="1606660063016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606576034770" />
+    <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606660063016" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652140" />
-    <state width="1323" height="177" key="GridCell.Tab.0.right" timestamp="1606576034770">
+    <state width="1323" height="213" key="GridCell.Tab.0.right" timestamp="1606660063016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606576034770" />
+    <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606660063016" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652473" />
     <state width="1323" height="169" key="GridCell.Tab.1.bottom" timestamp="1606025706813">
@@ -468,10 +477,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="230" width="425" height="267" key="MultipleFileMergeDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605015176283" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1606562155476">
+    <state x="104" y="17" key="SettingsEditor" timestamp="1606627194136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606562155476" />
+    <state x="104" y="17" key="SettingsEditor/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606627194136" />
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605015106417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
