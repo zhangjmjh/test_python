@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="爬虫相关操作">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,12 +246,12 @@
     </configuration>
     <list>
       <item itemvalue="Python.05-局部变量和全局变量" />
+      <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.34-文件的操作2" />
       <item itemvalue="Python.37-异常处理" />
       <item itemvalue="Python.38-爬虫分析01" />
       <item itemvalue="Python.39-testUellib爬虫" />
       <item itemvalue="Python.40-testBs4爬虫" />
-      <item itemvalue="Python.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -385,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606661455944</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="爬虫相关操作">
+      <created>1606883311374</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606883311374</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,10 +490,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="104" y="17" key="SettingsEditor/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606627194136" />
-    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606662309605">
+    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606883116777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606662309605" />
+    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606883116777" />
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605015106417" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606881994723">
       <screen x="0" y="0" width="1366" height="728" />
