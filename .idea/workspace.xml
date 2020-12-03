@@ -10,8 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="爬虫相关操作">
+    <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="爬虫">
+      <change afterPath="$PROJECT_DIR$/zjm_python/41-testRe爬虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/42-testXwlt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/39-testUellib爬虫.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/39-testUrllib爬虫.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +64,10 @@
     <setting file="file://$PROJECT_DIR$/zjm_python/06-默认参数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/07-可变参数.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/08-递归函数的使用.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/41-testRe爬虫.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/09-匿名函数的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/10-filter方法的使用.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/39-testUellib爬虫.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/39-testUrllib爬虫.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/11-map方法的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/12-reduce方法的使用.py" root0="SKIP_INSPECTION" />
@@ -71,6 +76,7 @@
     <setting file="file://$PROJECT_DIR$/zjm_python/15-计算一段代码的执行时间.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/baidu.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/16-装饰器1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/42-testXwlt.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1boVsn4Z6Fg0affYo6SOfL5bhxp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -96,7 +102,7 @@
       <recent name="E:\zhangjm_python\zjm_python_tetst" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.40-testBs4爬虫">
+  <component name="RunManager" selected="Python.42-testXwlt">
     <configuration name="05-局部变量和全局变量" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,48 +116,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/05-局部变量和全局变量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="34-文件的操作2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zhangjm_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/34-文件的操作2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="37-异常处理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="zhangjm_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/37-异常处理.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="39-testUellib爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="39-testUrllib爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,7 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\39-testUellib爬虫.py" />
+      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\39-testUrllib爬虫.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,6 +179,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="41-testRe爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\41-testRe爬虫.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="42-testXwlt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zhangjm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/42-testXwlt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,19 +253,19 @@
     <list>
       <item itemvalue="Python.05-局部变量和全局变量" />
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.34-文件的操作2" />
-      <item itemvalue="Python.37-异常处理" />
       <item itemvalue="Python.38-爬虫分析01" />
-      <item itemvalue="Python.39-testUellib爬虫" />
       <item itemvalue="Python.40-testBs4爬虫" />
+      <item itemvalue="Python.41-testRe爬虫" />
+      <item itemvalue="Python.39-testUrllib爬虫" />
+      <item itemvalue="Python.42-testXwlt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.40-testBs4爬虫" />
+        <item itemvalue="Python.42-testXwlt" />
         <item itemvalue="Python.38-爬虫分析01" />
-        <item itemvalue="Python.39-testUellib爬虫" />
-        <item itemvalue="Python.37-异常处理" />
-        <item itemvalue="Python.34-文件的操作2" />
+        <item itemvalue="Python.41-testRe爬虫" />
+        <item itemvalue="Python.40-testBs4爬虫" />
+        <item itemvalue="Python.39-testUrllib爬虫" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606883311374</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="爬虫">
+      <created>1606883464806</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606883464806</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,7 +431,8 @@
     <MESSAGE value="面向对象、函数 补充" />
     <MESSAGE value="文件的读取操作" />
     <MESSAGE value="爬虫相关操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬虫相关操作" />
+    <MESSAGE value="爬虫" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -434,28 +448,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="446" y="193" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606017890148" />
-    <state width="1323" height="213" key="GridCell.Tab.0.bottom" timestamp="1606661598755">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1607001424879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606661598755" />
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607001424879" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652474" />
-    <state width="1323" height="213" key="GridCell.Tab.0.center" timestamp="1606661598755">
+    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1607001424877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606661598755" />
+    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607001424877" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652472" />
-    <state width="1323" height="213" key="GridCell.Tab.0.left" timestamp="1606661598755">
+    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1607001424876">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606661598755" />
+    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607001424876" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652140" />
-    <state width="1323" height="213" key="GridCell.Tab.0.right" timestamp="1606661598755">
+    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1607001424878">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606661598755" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607001424878" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652473" />
     <state width="1323" height="169" key="GridCell.Tab.1.bottom" timestamp="1606025706813">
@@ -495,10 +509,10 @@
     </state>
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606883116777" />
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605015106417" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606881994723">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606962072512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606881994723" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606962072512" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605012083841" />
   </component>
 </project>

@@ -39,6 +39,18 @@ import re
 t_list = bs.find_all(text='hao123')
 t_list = bs.find_all(text=re.compile('\d'))  # 应用正则表达式来查找包含特定文本的内容(标签里的字符串)
 
-for i in t_list:
-    print(i)  # hao123
-    print(i)  # hao123  爬虫功能
+# for i in t_list:
+#     print(i)  # hao123
+#     print(i)  # hao123  爬虫功能
+
+# limit 参数
+# t_list = bs.find_all('a',limit=3)
+# for i in t_list:
+#     print(i)
+# <a class="mnav" href="http://news.baidu.com" name="tj_trnews"><!--新闻--></a>
+# <a class="mnav" href="http://news.baidu.com" name="tj_trnews">新闻</a>
+# <a class="mnav" href="https://www.hao123.com" name="tj_trhao123">hao123</a>
+
+# css选择器
+t_list = bs.select('title')  # 通过标签来查找
+print(t_list)  # [<title>百度一下，你就知道 </title>]
