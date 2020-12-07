@@ -11,12 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f51be416-4d07-48fb-bdbf-ff64876a8387" name="Default Changelist" comment="爬虫">
-      <change afterPath="$PROJECT_DIR$/zjm_python/41-testRe爬虫.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zjm_python/42-testXwlt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/43-testSqlite爬虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zjm_python/44-api接口.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zjm_python/39-testUellib爬虫.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/39-testUrllib爬虫.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/38-爬虫分析.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zjm_python/42-testXwlt.py" beforeDir="false" afterPath="$PROJECT_DIR$/zjm_python/42-testXwlt爬虫.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/zjm_python/17-装饰器2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/18-装饰器3.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/44-api接口.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/19-os模块的用法.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/22-randow模块的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/23-hashlib和hmac模块.py" root0="SKIP_INSPECTION" />
@@ -55,9 +55,11 @@
     <setting file="file://$PROJECT_DIR$/zjm_python/31-对象属性和类属性.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/32-私有属性的使用.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/33-文件的操作1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/43-testSqlite爬虫.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/34-文件的操作2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/37-异常处理.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/38-爬虫分析.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zfx_app/test_app.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/04-转换相关方法.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/02_Notes_selenium.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/03_Notes.py" root0="SKIP_INSPECTION" />
@@ -76,7 +78,7 @@
     <setting file="file://$PROJECT_DIR$/zjm_python/15-计算一段代码的执行时间.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/baidu.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zjm_python/16-装饰器1.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zjm_python/42-testXwlt.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zjm_python/42-testXwlt爬虫.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1boVsn4Z6Fg0affYo6SOfL5bhxp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -90,8 +92,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zjm_python/43-api接口.py" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
@@ -102,8 +105,8 @@
       <recent name="E:\zhangjm_python\zjm_python_tetst" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.42-testXwlt">
-    <configuration name="05-局部变量和全局变量" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.43-testSqlite爬虫">
+    <configuration name="38-爬虫分析" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/05-局部变量和全局变量.py" />
+      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\38-爬虫分析.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="38-爬虫分析01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="43-testSqlite爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/38-爬虫分析01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/43-testSqlite爬虫.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,127 +148,84 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="39-testUrllib爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for 43-api接口.Test_api.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\39-testUrllib爬虫.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;43-api接口.Test_api.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="40-testBs4爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for 43-api接口.Test_api.test_02" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/40-testBs4爬虫.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;43-api接口.Test_api.test_02&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="41-testRe爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for 43-api接口.Test_api.test_04" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\zhangjm_python\zjm_python\41-testRe爬虫.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;43-api接口.Test_api.test_04&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="42-testXwlt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in 44-api接口.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="zhangjm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zjm_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zjm_python/42-testXwlt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="zhangjm_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\zhangjm\AppData\Local\Programs\Python\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/zjm_python/44-api接口.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.05-局部变量和全局变量" />
-      <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.38-爬虫分析01" />
-      <item itemvalue="Python.40-testBs4爬虫" />
-      <item itemvalue="Python.41-testRe爬虫" />
-      <item itemvalue="Python.39-testUrllib爬虫" />
-      <item itemvalue="Python.42-testXwlt" />
+      <item itemvalue="Python.38-爬虫分析" />
+      <item itemvalue="Python.43-testSqlite爬虫" />
+      <item itemvalue="Python tests.pytest in 44-api接口.py" />
+      <item itemvalue="Python tests.pytest for 43-api接口.Test_api.test_01" />
+      <item itemvalue="Python tests.pytest for 43-api接口.Test_api.test_02" />
+      <item itemvalue="Python tests.pytest for 43-api接口.Test_api.test_04" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.42-testXwlt" />
-        <item itemvalue="Python.38-爬虫分析01" />
-        <item itemvalue="Python.41-testRe爬虫" />
-        <item itemvalue="Python.40-testBs4爬虫" />
-        <item itemvalue="Python.39-testUrllib爬虫" />
+        <item itemvalue="Python.43-testSqlite爬虫" />
+        <item itemvalue="Python tests.pytest for 43-api接口.Test_api.test_04" />
+        <item itemvalue="Python tests.pytest for 43-api接口.Test_api.test_02" />
+        <item itemvalue="Python tests.pytest for 43-api接口.Test_api.test_01" />
       </list>
     </recent_temporary>
   </component>
@@ -440,36 +400,68 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606575597514" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606124485604">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607342069908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606124485604" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607342069908" />
+    <state x="426" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607345965432">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="426" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607345965432" />
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1607342657320">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607342657320" />
     <state x="446" y="193" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606017890148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="446" y="193" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606017890148" />
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1607001424879">
+    <state x="379" y="0" key="#pytest_for_43-api接口.Test_api.test_01" timestamp="1607342149425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607001424879" />
+    <state x="379" y="0" key="#pytest_for_43-api接口.Test_api.test_01/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607342149425" />
+    <state x="379" y="0" key="#pytest_for_43-api接口.Test_api.test_02" timestamp="1607342444418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" key="#pytest_for_43-api接口.Test_api.test_02/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607342444418" />
+    <state x="379" y="0" key="#pytest_for_43-api接口.Test_api.test_04" timestamp="1607342787763">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" key="#pytest_for_43-api接口.Test_api.test_04/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607342787763" />
+    <state x="379" y="0" key="#pytest_for_43-api接口.test_get" timestamp="1607341502079">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" key="#pytest_for_43-api接口.test_get/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607341502079" />
+    <state x="540" y="110" key="EnvironmentVariablesDialog" timestamp="1607342731884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="540" y="110" key="EnvironmentVariablesDialog/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607342731884" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607348386979">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607348386979" />
+    <state width="1323" height="126" key="GridCell.Tab.0.bottom" timestamp="1607348077814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="126" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607348077814" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652474" />
-    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1607001424877">
+    <state width="1323" height="126" key="GridCell.Tab.0.center" timestamp="1607348077813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607001424877" />
+    <state width="1323" height="126" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607348077813" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652472" />
-    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1607001424876">
+    <state width="1323" height="126" key="GridCell.Tab.0.left" timestamp="1607348077813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607001424876" />
+    <state width="1323" height="126" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607348077813" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652140" />
-    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1607001424878">
+    <state width="1323" height="126" key="GridCell.Tab.0.right" timestamp="1607348077813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607001424878" />
+    <state width="1323" height="126" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607348077813" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605013737925" />
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605104652473" />
     <state width="1323" height="169" key="GridCell.Tab.1.bottom" timestamp="1606025706813">
@@ -500,19 +492,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="230" width="425" height="267" key="MultipleFileMergeDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605015176283" />
-    <state x="104" y="17" key="SettingsEditor" timestamp="1606627194136">
+    <state x="104" y="17" key="SettingsEditor" timestamp="1607348399708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="104" y="17" key="SettingsEditor/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606627194136" />
+    <state x="104" y="17" key="SettingsEditor/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607348399708" />
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606883116777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606883116777" />
     <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605015106417" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606962072512">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607348360106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1606962072512" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-156.1920.1040@0.0.1366.728" timestamp="1607348360106" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605012083841" />
   </component>
 </project>

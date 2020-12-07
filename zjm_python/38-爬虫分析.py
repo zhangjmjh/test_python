@@ -9,9 +9,9 @@ def main():
     baseurl = 'https://movie.douban.com/top250?start='
     # 1 爬取网页
     datalist = getDate(baseurl)
-    savepath = r'./豆瓣电影Top250.xls'
+    savepath = '豆瓣电影Top250.xls'
     # 3 保存数据
-    # saveData(savepath)
+    saveData(datalist,savepath)
 
 # 影片详情链接的规则
 findLink = re.compile(r'<a href="(.*?)">')  # .表示一个字符 * 表示会有很多字符 ?表示这种情况有0次或者1次
@@ -106,9 +106,20 @@ def askURL(url):
 
 
 # 保存数据
-def saveData(savepath):
-    pass
+def saveData(datalist,savepath):
+    book = xlwt.Workbook(encoding='utf-8',style_compression=0)  # 创建worlbook对象
+    sheet = book.add_sheet('豆瓣电影Top250',cell_overwrite_ok=True)  # 创建工作表
+    col = ("电影详情链接","图片链接","影片中文名","影片外国名","评分","评价数","概述","相关信息")
+    for i in range(0,8):
+        sheet.write(0,i,col[i])  #  列名
+    for i in range(0,250):
+        print('第%d条'%(i+1))
+        data = datalist[i]
+        for j in range(0,8):
+            sheet.write(i+1,j,data[j])  # 数据
 
+    book.save(savepath) # 保存
 
 if __name__ == '__main__':  # 当程序执行时
     main()
+    print('爬取完毕')
